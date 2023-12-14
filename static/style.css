@@ -1,0 +1,177 @@
+ *{
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  background: #C2BEB2;
+}  */
+.center {
+  position: absolute;
+  top: 0;
+ left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.n{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+
+ 
+/* <!- Hello --> */
+ .test img {
+  --s: 150px;   /* the size of the image */
+   --b: 4px;     /* the border thickness*/
+   --g: 3px;    /* the gap */
+   --c: #4020dc; /*the color */
+  
+   width: var(--s);
+  aspect-ratio: 1;
+  /* outline: calc(var(--s)/2) solid #ffffff; */
+
+  outline-offset : calc(var(--s)/-2);
+  cursor: pointer;
+  transition: 0.1s;
+} 
+.test img:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+}
+
+ .test img + img {
+  border-radius: 20%;
+}
+
+
+
+
+#push {
+  padding: 23px;
+}
+/* .column {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+} */
+
+.bf{
+  text-align: center;
+  font-size: 15px;
+ 
+}
+.pla{
+  font-size: 20px;
+}
+
+
+.material-symbols-outlined {
+border: 2px solid black;
+height: 30px;
+width: 40px;
+/* padding-left: 5px; */
+padding: auto;
+}
+/* .material-symbols-outline{
+  height: 30PX;
+} */  .bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+#logo{
+  display: none;
+  
+  
+}
+/* updated */
+.table {
+  display: flexbox;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+  }
+  .jk{
+      display: flex;
+      flex-direction: column;
+
+  }
+  .navbar-brand{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 0;
+      
+  }
+  
+  #logo{
+      display: flex;
+  }
+  #logo2{
+      display: none;
+      height: 0px;
+  }
+      /* .navbar-toggler {
+      color: #000;
+      background-color: #000;
+      opacity: 10%;
+  } */
+  .ratio{
+      height: 70vh;
+  }
+
+}
